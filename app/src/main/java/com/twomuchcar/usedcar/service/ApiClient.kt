@@ -6,9 +6,8 @@ import retrofit2.converter.gson.GsonConverterFactory
 import okhttp3.logging.HttpLoggingInterceptor
 
 object ApiClient {
-    //    private const val BASE_URL = "http://192.168.202.83:8080"
-//    private const val BASE_URL = "http://localhost:8080"
-    private const val BASE_URL = "http://10.0.2.2:8080"
+//    private const val BASE_URL = "http://10.0.2.2:8080"
+    private const val BASE_URL = "https://twomuchcar.shop"
 
     val api: ApiService by lazy {
         val logging = HttpLoggingInterceptor().apply {
